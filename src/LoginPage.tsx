@@ -51,6 +51,7 @@ function LoginPage({ setUserData }: Props) {
 
   return (
     <div className={styles.pageConatiner}>
+      <div className={styles.Header}>Snap Note</div>
       <form className={styles.loginContainer} onSubmit={handleSubmit}>
         {errorText}
         <label>

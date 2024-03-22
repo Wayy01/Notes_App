@@ -36,7 +36,7 @@
   border: 1px solid #cbd5e1;
 }
 
-.sidebarList {
+.sidebarLisr {
   display: flex;
   flex-direction: column;
   overflow: auto;
@@ -59,4 +59,25 @@
 .sidebarItemActive {
   composes: sidebarItem;
   background-color: #e2e8f0;
+}
+
+.Header {
+  font-size: 86px;
+  font-weight: 500;
+}
+.MainContainerNotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 200px;
+  height: 100dvh;
+  width: 100%;
+  user-select: none;
+}
+.backroundImage {
+  width: 500px;
+}
+.noNotesText {
+  font-size: 24px;
 }

@@ -122,7 +122,17 @@ function App({ userData }: Props) {
           }
         />
       ) : (
-        <div>Create a new note or select an existing note.</div>
+        <div className={styles.MainContainerNotes}>
+          <div className={styles.Header}>Snap Note</div>
+
+          <div className={styles.noNotesText}>
+            Create a new note or select an existing note.
+          </div>
+          <img
+            className={styles.backroundImage}
+            src="/src/assets/Learning-cuate.svg"
+          ></img>
+        </div>
       )}
     </div>
   );
